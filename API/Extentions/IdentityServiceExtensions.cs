@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace API.Extentions;
+namespace API.extensions;
 
-public static class IdentityServiceExtentions
+public static class IdentityServiceextensions
 {
     public static IServiceCollection AddIdentityServices(this IServiceCollection services, IConfiguration config){
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

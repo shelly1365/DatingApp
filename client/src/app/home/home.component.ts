@@ -17,7 +17,7 @@ export class HomeComponent {
     this.registerMode = true;
   }
   cancelRegisterMode(event: boolean){
-    this.registerMode = false;
+    this.registerMode = event;
   }
 
 }
